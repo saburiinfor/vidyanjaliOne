@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- partial("_headAssets", {title: "Welccome to Vidyanjali - for Boys and Girls"}) %>
+</head>
+<body>
+
+<!-- Header section starts -->
+<%- partial("_header") %>
+<!-- Header section ends -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="index.html">Kiddos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <!-- <p class="button-custom order-lg-last mb-0"><a href="appointment.html" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p> -->
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
+                <li class="nav-item active"><a href="courses.html" class="nav-link">Courses</a></li>
+<!--                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>-->
+                <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/pic-11.png');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-2 bread">Our Courses</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Courses <i class="ion-ios-arrow-forward"></i></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-1.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Arts Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-2.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Language Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-3.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Music Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-4.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Sports Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-5.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Study Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+            <div class="col-md-6 course d-lg-flex ftco-animate">
+                <div class="img" style="background-image: url(images/course-6.jpg);"></div>
+                <div class="text bg-light p-4">
+                    <h3><a href="#">Experiment Lesson</a></h3>
+                    <p class="subheading"><span>Class time:</span> 9:00am - 10am</p>
+                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<%- partial("_footer") %>
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+    </svg>
+</div>
+
+<%- partial("_footAssets") %>
+
+</body>
+</html>
